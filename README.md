@@ -14,7 +14,7 @@ github.users("octocat").get()["location"]
 ```
 Right now authentication headers are not supported. But I'm working on that.
 
-By default Tortilla will parse a JSON response into a Ruby hash. But you can change implement your own parsing methods by adding them to Tortilla.
+By default Tortilla will parse a JSON response into a Ruby hash. But you can  implement your own parsing methods by adding them to Tortilla per API.
 
 Example:
 

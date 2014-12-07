@@ -31,7 +31,7 @@ The response object is from the gem HTTParty, so for detailed documentation abou
 ## Roadmap
 * Support adding customs headers (like authentication headers)
 * Support other HTTP methods than GET (like POST, UPDATE, DELETE)
-* Implement a OAuth workflow
+* Implement an OAuth workflow
 
 ## License
 MIT

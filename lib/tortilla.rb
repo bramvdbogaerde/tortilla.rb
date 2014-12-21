@@ -25,7 +25,7 @@ module Tortilla
 
     def get(*args)
       puts @url
-      response = HTTParty.get(@url)
+      response = HTTParty.get(@url,:headers => @headers)
       if(!@response_parser.nil?)
         parsed = @response_parser.call(response)
       else

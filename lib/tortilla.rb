@@ -34,10 +34,6 @@ module Tortilla
 
       return parsed
     end
-
-    def set_header(name,value)
-      @headers[name] = value
-    end
   end
 
   class ApiWrapper

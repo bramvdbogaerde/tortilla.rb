@@ -17,7 +17,7 @@ module Tortilla
       @url = @url+"/"+meth.to_s
 
       if(!args.first.nil? && !args.nil?)
-        @url+"/"+args.first
+        @url+"/"+args.first.to_s
       end
 
       return self
@@ -52,7 +52,7 @@ module Tortilla
       @request.url= @domain+"/"+meth.to_s
 
       if(!args.first.nil? && !args.nil?)
-        @request.url = @request.url+"/"+args.first
+        @request.url = @request.url+"/"+args.first.to_s
       end
 
       return @request

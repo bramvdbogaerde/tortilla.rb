@@ -29,8 +29,8 @@ api.users("bramvdbogaerde").get
 The response object is from the gem HTTParty, so for detailed documentation about the response, you should take a look at their gem.
 
 ## Roadmap
-* Support adding customs headers (like authentication headers)
-* Support other HTTP methods than GET (like POST, UPDATE, DELETE)
+* Support adding customs headers (like authentication headers) [__IN PROGRESS__]
+* Support other HTTP methods than GET (like POST, UPDATE, DELETE) [__IN PROGRESS__]
 * Implement an OAuth workflow
 
 ## License

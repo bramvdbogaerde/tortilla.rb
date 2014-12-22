@@ -5,6 +5,5 @@ group :osx do
   gem 'rspec-nc'
 end
 
-group :testing do
-  gem 'rspec'
-end
+gem 'rspec'
+gem 'httparty'

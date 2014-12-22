@@ -4,7 +4,7 @@
 #######################################
 
 require 'bundler'
-Bundler.require
+Bundler.require(:osx)
 
 listener = Listen.to("./") do |modified, added, removed|
   if(removed.empty?)

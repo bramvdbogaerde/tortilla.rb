@@ -1,5 +1,6 @@
 Tortilla.rb
 ==============
+![TravisBuildStatus](https://api.travis-ci.org/bramvdbogaerde/tortilla.rb.png?branch=master)
 
 This is a port of [Tortilla](https://github.com/redodo/tortilla) originally written for use in Python. But I thought it would also be useful in Ruby.
 
